@@ -1,7 +1,64 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* write your CSS here */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1e1e1e;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: 1px solid white;
+}
+
+.icon {
+  position: absolute;
+  left: 50px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.navbar-options {
+  margin: 10px;
+  color: white;
+  font-size: medium 18px;
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-options:hover {
+  color: #e9dcff;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-button {
+  height: 54px;
+  width: 132px;
+  cursor: pointer;
+  background-color: #e9dcff;
+  color: #1e1e1e;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-button:hover {
+  background-color: #ccbee6;
+}

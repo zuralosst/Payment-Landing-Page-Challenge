@@ -20,36 +20,55 @@ body {
   /* border: 1px solid white; */
 }
 
+.icon-container {
+  flex: 1 1 20%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
 .icon {
-  margin-left: 5rem;
-  margin-right: 20vw;
+  /* margin-left: 5rem;
+  margin-right: 20vw; */
   /* left: 50px; */
+
   height: 40px;
   width: 40px;
   cursor: pointer;
 }
 
+.options-container {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin-right: 25vw; */
+  /* border: 1px solid white; */
+}
+
 .navbar-options {
-  margin: 10px;
+  /* margin: 10px; */
   color: white;
   font-size: medium 18px;
   cursor: pointer;
   font-size: 18px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 }
 
 .navbar-options:hover {
   color: #e9dcff;
 }
 
-.options-container {
+.button-container {
   display: flex;
-  flex-direction: row;
-  margin-right: 25vw;
+  flex: 1 1 30%;
+  justify-content: center;
+  gap: 1rem;
+  /* border: 1px solid white; */
 }
 
-.nav-button {
+.buttons {
   height: 54px;
   width: 132px;
   cursor: pointer;
@@ -60,6 +79,6 @@ body {
   font-size: 20px;
 }
 
-.nav-button:hover {
+.buttons:hover {
   background-color: #ccbee6;
 }

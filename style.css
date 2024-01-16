@@ -82,3 +82,34 @@ body {
 .buttons:hover {
   background-color: #ccbee6;
 }
+
+.hero-section {
+  height: 294px;
+  width: 542px;
+  border: 1px solid white;
+  color: white;
+}
+
+.hero-header {
+  color: #e9dcff;
+  font-size: 18px;
+}
+
+.hero-text {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.download-button {
+  display: flex;
+  height: 66px;
+  width: 188px;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-icon {
+  margin-left: 0.5em;
+  height: 22px;
+  width: 22px;
+}
